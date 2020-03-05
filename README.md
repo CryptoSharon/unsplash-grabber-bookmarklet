@@ -7,7 +7,7 @@ Grab and credit any photo from Unsplash with one click on a bookmarklet. Ready f
 
 ## Instructions
 
-1. Copy the code in the the [index.min.js](index.min.js) file.
+1. Copy the code in the [index.min.js](https://raw.githubusercontent.com/CryptoSharon/unsplash-grabber-bookmarklet/master/index.min.js) file.
 2. Add a new bookmark
 3. In the "location" entry, write `javascript:`, then paste the code
 4. Save the bookmarklet with any name you want
