@@ -15,7 +15,7 @@
     .then(json => {
 			//report(JSON.stringify(json.urls))
       const url = json.urls.raw.concat("&h=800&w=1200")
-      const credit = `Photo by <a href="${json.user.links.html}">${json.user.name}</a> on Unsplash`
+      const credit = `Photo by <a href="${json.user.links.html}">${json.user.name}</a> on <a href="${json.links.html}">Unsplash</a>`
       const html = `<center><img src="${url}"></center><br><center><sup>${credit}</sup></center>`
 			report(html)
   }).catch(e => report(e))
